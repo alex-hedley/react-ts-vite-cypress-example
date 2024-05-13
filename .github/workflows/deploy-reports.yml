@@ -1,0 +1,65 @@
+name: End-to-end tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+        - main
+      # paths: src/**
+    # pull_request:
+    #   branches: [ main ]
+    #   paths: src/**    
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+
+    # defaults:
+    #   run:
+    #     working-directory: src
+    
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run 🧪
+        uses: cypress-io/github-action@v6
+        # with:
+        #   command: npm run e2e:ci
+
+      - name: Merge Reports ⛘
+        run: npm run report:merge
+        working-directory: src
+
+      - name: Generate Report 📊
+        run: npm run report:generate
+        working-directory: src
+
+      - name: Upload production-ready build files ⬆️
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-files
+          path: ./src/test-reports
+
+  deploy:
+    name: Deploy
+    needs: cypress-run
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download artifact ⬇️
+        uses: actions/download-artifact@v4
+        with:
+          name: production-files
+          path: ./src/test-reports
+
+      - name: Deploy to GitHub Pages 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./src/test-reports
