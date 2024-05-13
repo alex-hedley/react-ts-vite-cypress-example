@@ -1,0 +1,12 @@
+{
+    "reporterEnabled": "mochawesome",
+    "reporterOptions": {
+      "useInlineDiffs": true,
+      "reportDir": "test-reports",
+      "reportFilename": "test-report",
+      "overwrite": true,
+      "timestamp": "mmddyyyy_HHMMss",
+      "html": true,
+      "json": true
+    }
+  }
