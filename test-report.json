@@ -12,13 +12,13 @@
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
-    "start": "2024-05-13T15:44:43.667Z",
-    "end": "2024-05-13T15:44:43.968Z",
-    "duration": 301
+    "start": "2024-09-18T08:46:42.122Z",
+    "end": "2024-09-18T08:46:42.549Z",
+    "duration": 427
   },
   "results": [
     {
-      "uuid": "2627187f-0f9b-4728-ab30-bb4ee18b0c90",
+      "uuid": "63634f37-66c8-4dfb-8dd8-8b09cabf60bf",
       "title": "",
       "fullFile": "cypress/e2e/spec.cy.ts",
       "file": "cypress/e2e/spec.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4b1b5e1a-68c1-43c5-826f-1b9e7af62178",
+          "uuid": "904732f5-7509-414e-a9e3-8b4a3f848afb",
           "title": "Just visit e2e test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should visit",
               "fullTitle": "Just visit e2e test should visit",
               "timedOut": null,
-              "duration": 268,
+              "duration": 387,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('/');",
               "err": {},
-              "uuid": "2da2cb0d-6cb5-4018-bc7b-8b78de7474ae",
-              "parentUUID": "4b1b5e1a-68c1-43c5-826f-1b9e7af62178",
+              "uuid": "752c65a8-0082-474b-89b3-585b314c68a6",
+              "parentUUID": "904732f5-7509-414e-a9e3-8b4a3f848afb",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2da2cb0d-6cb5-4018-bc7b-8b78de7474ae"
+            "752c65a8-0082-474b-89b3-585b314c68a6"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 268,
+          "duration": 387,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
