@@ -13,11 +13,11 @@
     "report:generate": "marge test-reports/test-report.json --charts true -o test-reports -t 'Feature Tests' -f 'test-report.html'"
   },
   "dependencies": {
-    "react": "^18.2.0",
+    "react": "^19.1.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.66",
+    "@types/react": "^19.1.8",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
