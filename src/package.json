@@ -24,7 +24,7 @@
     "@vitejs/plugin-react": "^4.5.2",
     "cypress": "^13.9.0",
     "cypress-multi-reporters": "^2.0.5",
-    "eslint": "^8.57.0",
+    "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "mochawesome": "^7.1.3",
