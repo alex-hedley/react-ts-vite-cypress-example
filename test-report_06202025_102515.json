@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-06-17T10:53:01.441Z",
-    "end": "2025-06-17T10:53:01.747Z",
-    "duration": 306,
+    "start": "2025-06-20T10:25:15.503Z",
+    "end": "2025-06-20T10:25:15.903Z",
+    "duration": 400,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "98978bd2-d612-4a63-94e5-691f5493146b",
+      "uuid": "14bead73-e402-4f95-b605-8478e8ea9fd7",
       "title": "",
       "fullFile": "cypress/e2e/spec.cy.ts",
       "file": "cypress/e2e/spec.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7efe0f28-39aa-4230-9592-a609e117b9f8",
+          "uuid": "5dc1c3ab-fc32-4366-a5f4-2e951a3cf391",
           "title": "Just visit e2e test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should visit",
               "fullTitle": "Just visit e2e test should visit",
               "timedOut": null,
-              "duration": 264,
+              "duration": 350,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('/');",
               "err": {},
-              "uuid": "8187ab40-4065-4fdd-a381-3f4bcf034f78",
-              "parentUUID": "7efe0f28-39aa-4230-9592-a609e117b9f8",
+              "uuid": "7937be26-ca17-46a8-8ae9-5a00f305c230",
+              "parentUUID": "5dc1c3ab-fc32-4366-a5f4-2e951a3cf391",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "8187ab40-4065-4fdd-a381-3f4bcf034f78"
+            "7937be26-ca17-46a8-8ae9-5a00f305c230"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 264,
+          "duration": 350,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
