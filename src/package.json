@@ -22,7 +22,7 @@
     "@typescript-eslint/eslint-plugin": "^8.34.1",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react": "^4.6.0",
-    "cypress": "^13.9.0",
+    "cypress": "^14.5.0",
     "cypress-multi-reporters": "^2.0.5",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^5.2.0",
