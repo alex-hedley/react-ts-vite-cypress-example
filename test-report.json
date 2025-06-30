@@ -12,13 +12,13 @@
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
-    "start": "2025-06-20T13:19:33.639Z",
-    "end": "2025-06-20T13:19:34.131Z",
-    "duration": 492
+    "start": "2025-06-30T13:15:34.521Z",
+    "end": "2025-06-30T13:15:34.987Z",
+    "duration": 466
   },
   "results": [
     {
-      "uuid": "9ed70426-1d3b-4df4-b7bf-ecedaefc7628",
+      "uuid": "e8e574cb-bce2-4078-9a19-5af674415b31",
       "title": "",
       "fullFile": "cypress/e2e/spec.cy.ts",
       "file": "cypress/e2e/spec.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ee315c3b-e4e7-47a9-8a85-681298e63141",
+          "uuid": "77ec869f-8ea1-452f-812c-25be07ffe555",
           "title": "Just visit e2e test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should visit",
               "fullTitle": "Just visit e2e test should visit",
               "timedOut": null,
-              "duration": 463,
+              "duration": 428,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('/');",
               "err": {},
-              "uuid": "be36eb8d-ab88-457b-b783-d9c54883f9aa",
-              "parentUUID": "ee315c3b-e4e7-47a9-8a85-681298e63141",
+              "uuid": "1679364f-52bf-434a-aae1-96f5b5bbb686",
+              "parentUUID": "77ec869f-8ea1-452f-812c-25be07ffe555",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "be36eb8d-ab88-457b-b783-d9c54883f9aa"
+            "1679364f-52bf-434a-aae1-96f5b5bbb686"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 463,
+          "duration": 428,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -78,7 +78,7 @@
   ],
   "meta": {
     "mocha": {
-      "version": "7.0.1"
+      "version": "7.2.0"
     },
     "mochawesome": {
       "options": {
