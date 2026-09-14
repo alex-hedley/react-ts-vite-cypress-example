@@ -14,9 +14,13 @@
 
 <!-- [![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://docs.github.com/en/actions) -->
 
+[![End-to-end tests](https://github.com/alex-hedley/react-ts-vite-cypress-example/actions/workflows/deploy-reports.yml/badge.svg)](https://github.com/alex-hedley/react-ts-vite-cypress-example/actions/workflows/deploy-reports.yml)
+[![pages-build-deployment](https://github.com/alex-hedley/react-ts-vite-cypress-example/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/alex-hedley/react-ts-vite-cypress-example/actions/workflows/pages/pages-build-deployment)
+
 ## Site
 
-<!-- - https://alex-hedley.github.io/react-ts-vite-cypress-example/ -->
+- https://alex-hedley.github.io/react-ts-vite-cypress-example/
+  - https://alex-hedley.github.io/react-ts-vite-cypress-example/test-report.html
 
 ## Docs
 
